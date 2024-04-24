@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.newganttwidget.NewGanttWidget" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>New Gantt Widget</name>
+    <description>A new Gantt widget using React and based on Google Gantt Charts</description>
+    <icon>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</icon>
+    <properties>
+        <propertyGroup caption="Data Configuration">
+
+            <property key="dataSource" type="datasource" isList="true" required="true">
+                <caption>Data source</caption>
+                <description>List of tasks to display in the Gantt chart</description>
+                    
+            </property>
+
+            <property key="taskId" type="attribute" dataSource="dataSource">
+                <caption>Task ID</caption>
+                <description>Attribute holding the Task Id</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+
+            <property key="taskName" type="attribute" dataSource="dataSource">
+                <caption>Task Name</caption>
+                <description>Attribute holding the task name</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+
+            <property key="taskResource" type="attribute" dataSource="dataSource">
+                <caption>Resource</caption>
+                <description>Attribute holding the resource</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+
+            <property key="startDate" type="attribute" dataSource="dataSource">
+                <caption>Start Date</caption>
+                <description>Attribute holding the task start date</description>
+                <attributeTypes>
+                    <attributeType name="DateTime"/>
+                </attributeTypes>
+            </property>
+
+            <property key="endDate" type="attribute" dataSource="dataSource">
+                <caption>End Date</caption>
+                <description>Attribute holding the task end date</description>
+                <attributeTypes>
+                    <attributeType name="DateTime"/>
+                </attributeTypes>
+            </property>
+
+            <property key="taskDuration" type="attribute" dataSource="dataSource">
+                <caption>Task Duration</caption>
+                <description>Attribute holding the task duration (only used when no end date given)</description>
+                <attributeTypes>
+                    <attributeType name="Integer"/>
+                </attributeTypes>
+            </property>
+
+            <property key="percentComplete" type="attribute" dataSource="dataSource">
+                <caption>Percent complete</caption>
+                <description>Attribute holding the completion percentage</description>
+                <attributeTypes>
+                    <attributeType name="Integer"/>
+                </attributeTypes>
+            </property>
+
+            <property key="taskDependencies" type="attribute" dataSource="dataSource">
+                <caption>Task dependecies</caption>
+                <description>Attribute holding the dependecies</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+
+        </propertyGroup>
+
+        <propertyGroup caption="Styling - General">
+            <property key="showCriticalPath" type="boolean" defaultValue="true">
+                <caption>Show Critical Path</caption>
+                <description>Highlights the critical path</description>
+            </property>
+            <property key="ganttHeight" type="integer" defaultValue="300">
+                <caption>Inner height</caption>
+                <description>(Inner) Height of the Gantt chart)</description>
+            </property>
+        </propertyGroup>
+
+        <propertyGroup caption="Styling - Font">
+            <property key="fontType" type="string" defaultValue="Arial">
+                <caption>Font</caption>
+                <description>Font for row labels</description>
+            </property>
+            <property key="fontSize" type="integer" defaultValue="12">
+                <caption>Font size</caption>
+                <description>Font size for row labels</description>
+            </property>
+            <property key="fontColor" type="string" defaultValue="#000000">
+                <caption>Font Color</caption>
+                <description>Font color for row labels (works only when no resource is given)</description>
+            </property>
+        </propertyGroup>
+
+        <propertyGroup caption="Styling - Rows">
+            <property key="rowNormalColor" type="string" defaultValue="#FFFFFF">
+                <caption>Row color</caption>
+                <description>Color for every light row</description>
+            </property>
+            <property key="rowDarkColor" type="string" defaultValue="#F5F6FC">
+                <caption>Row color</caption>
+                <description>Color for every dark row</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
