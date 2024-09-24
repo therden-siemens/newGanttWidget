@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.6",
-    "react-google-charts": "^4.0.1"
+    "react-google-charts": "^4.0.5"
   },
   "resolutions": {
     "react": "18.2.0",

@@ -39,6 +39,7 @@ export interface NewGanttWidgetPreviewProps {
     style: string;
     styleObject?: CSSProperties;
     readOnly: boolean;
+    renderMode?: "design" | "xray" | "structure";
     dataSource: {} | { caption: string } | { type: string } | null;
     taskId: string;
     taskName: string;
